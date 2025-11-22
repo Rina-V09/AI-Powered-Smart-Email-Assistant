@@ -23,26 +23,56 @@ This application solves the problem of drafting emails by allowing users to gene
 | Browser Extension | Chrome Extension API (Manifest V3), MutationObserver |
 
 ## 📂 Folder Structure
+<details>
+  <summary>📂 Repository Structure</summary>
+  
+```plaintext
+  ai-smart-email-assistant/
+│
+├── email-wwriter-sb/                 # Backend (Spring Boot)
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   ├── controller/
+│   │       │   ├── service/
+│   │       │   ├── config/
+│   │       │   └── EmailWriterSbApplication.java
+│   │       └── resources/
+│   │           ├── application.yml
+│   │           └── static/
+│   ├── pom.xml
+│
+├── email-writer-react/               # Frontend (React)
+│   ├── src/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   └── main.jsx
+│   ├── public/
+│   ├── package.json
+│
+├── email-writer-ext/                 # Chrome Extension (Manifest V3)
+│   ├── manifest.json
+│   ├── content.js
+│   ├── background.js
+│   └── assets/
+│       ├── icon16.png
+│       ├── icon48.png
+│       └── icon128.png
+│
+├── assets/                           # Images for README
+│   ├── extension-demo.png
+│   └── workflow.png
+│
+├── reports/
+│   └── project_overview.pdf
+│
+├── README.md
+├── .gitignore
 
-root/  
-├── email-writer-sb/               # Backend (Spring Boot)  
-│   ├── src/main/java              # Controllers, Services, Configurations  
-│   ├── pom.xml                    # Backend dependencies  
-│   └── application.yml            # API Keys, CORS settings  
-│
-├── email-writer-react/            # Frontend (React)  
-│   ├── src/                       # Components & API Services  
-│   ├── package.json               # Dependencies  
-│   └── public/  
-│
-└── email-writer-ext/              # Chrome Extension  
-│   ├── manifest.json              # Extension configuration  
-│   ├── content.js                 # DOM scanning & email extraction  
-│   └── background.js              # Background event handlers  
-│
-└── assets/                        #Screenshots / images
-|
-└── README.md                      # Main documentation file
+```
+</details>
+
 ## 🛠️ Installation & Setup
 
 ### 1️⃣ Backend Setup (Spring Boot)
