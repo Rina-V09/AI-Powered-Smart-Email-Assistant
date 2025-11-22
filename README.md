@@ -29,7 +29,7 @@ This application solves the problem of drafting emails by allowing users to gene
 ```plaintext
   ai-smart-email-assistant/
 │
-├── email-wwriter-sb/                 # Backend (Spring Boot)
+├── email-writer-sb/                 # Backend (Spring Boot)
 │   ├── src/
 │   │   └── main/
 │   │       ├── java/
@@ -110,24 +110,17 @@ The extension is now active.
 4. Content is sent to Spring Boot backend  
 5. Backend sends a prompt to Google Gemini API  
 6. Gemini generates a context-aware reply  
-7. Reply is inserted back into the email textbox  
+7. Reply is inserted back into the email textbox
 
-## 📡 API Endpoint
+---
 
-POST: /api/v1/generate-email
+## 📸 UI Screenshot
 
-Sample JSON request:
-{
-  "emailContent": "Hello, can you share the project report?",
-  "tone": "professional"
-}
+<p align="center">
+  <img src="assets/ui-home.png" alt="React UI Home" width="750">
+</p>
 
-## 📝 Environment Variables
-
-Inside application.yml:
-google:  
-  gemini:  
-    apiKey: YOUR_GEMINI_API_KEY
+---
 
 ## 🚧 Future Enhancements
 
