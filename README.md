@@ -118,11 +118,11 @@ The extension is now active.
 
 | Extension in Action | AI Generation UI |
 | :---: | :---: |
-| ![Extension](assets/Extension Demo.png) | ![UI](assets/UI-Interface.png) |
+| ![Extension](assets/Extension-Demo.png) | ![UI](assets/UI-Interface.png) |
 
 | Generated Result | Backend API |
 | :---: | :---: |
-| ![Result](assets/Extension Demo result.png) | ![Backend](assets/backend-api test.png) |
+| ![Result](assets/Extension-Demo-result.png) | ![Backend](assets/backend-api-test.png) |
 
 ---
 
