@@ -114,11 +114,15 @@ The extension is now active.
 
 ---
 
-## 📸 UI Screenshot
+## 📸 Screenshots
 
-<p align="center">
-  <img src="assets/ui-home.png" alt="React UI Home" width="750">
-</p>
+| Extension in Action | AI Generation UI |
+| :---: | :---: |
+| ![Extension](assets/Extension Demo.png) | ![UI](assets/UI-Interface.png) |
+
+| Generated Result | Backend API |
+| :---: | :---: |
+| ![Result](assets/Extension Demo result.png) | ![Backend](assets/backend-api test.png) |
 
 ---
 
